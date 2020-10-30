@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "aadhttp-client-side-solution",
+    "id": "03e1e1f9-2c80-4123-8fe1-22697a624778",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Windows Azure Active Directory",
+        "scope": "User.Read"
+        },
+      {
+        "resource": "AADHTTP.WEBAPI",
+        "scope": "user_impersonation"
+      }
+    ],
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/aadhttp.sppkg"
+  }
+}

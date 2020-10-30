@@ -1,0 +1,6 @@
+namespace AADHTTP.WEBAPI.Areas.HelpPage.ModelDescriptions
+{
+    public class SimpleTypeModelDescription : ModelDescription
+    {
+    }
+}
