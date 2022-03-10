@@ -166,7 +166,7 @@
           <DisplayName>REST API call to communicate with Legacy IdP</DisplayName>
           <Protocol Name="Proprietary" Handler="Web.TPEngine.Providers.RestfulProvider, Web.TPEngine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
           <Metadata>
-            <Item Key="ServiceUrl">https://XXX/ilcb-iam/b2c-password-validation-svc/v1/Password_migration?subscription-key=7286f3252bb244e4a1235203b3b058ad</Item>
+            <Item Key="ServiceUrl">https://XXX/b2c-password-validation-svc/v1/Password_migration?subscription-key=xxx</Item>
             <Item Key="SendClaimsIn">Body</Item>
             <Item Key="AuthenticationType">Bearer</Item>
             <Item Key="UseClaimAsBearerToken">bearerToken</Item>
@@ -282,17 +282,17 @@
         <TechnicalProfile Id="login-NonInteractive">
           <Metadata>
             <!--Demo action required: Change to your ProxyIdentityExperienceFramework App Id-->
-            <Item Key="client_id">2a413e28-25c7-46f5-916c-cfed39ff655c</Item>
+            <Item Key="client_id">XXX</Item>
 
             <!--Demo action required: Change to your IdentityExperienceFramework App Id-->
-            <Item Key="IdTokenAudience">f389fde5-1bc8-4a19-863e-6600b846f114</Item>
+            <Item Key="IdTokenAudience">XXX</Item>
           </Metadata>
           <InputClaims>
             <!--Demo action required: Change to your ProxyIdentityExperienceFramework App Id-->
-            <InputClaim ClaimTypeReferenceId="client_id" DefaultValue="2a413e28-25c7-46f5-916c-cfed39ff655c" />
+            <InputClaim ClaimTypeReferenceId="client_id" DefaultValue="XXX" />
 
             <!--Demo action required: Change to your IdentityExperienceFramework App Id-->
-            <InputClaim ClaimTypeReferenceId="resource_id" PartnerClaimType="resource" DefaultValue="f389fde5-1bc8-4a19-863e-6600b846f114" />
+            <InputClaim ClaimTypeReferenceId="resource_id" PartnerClaimType="resource" DefaultValue="XXX" />
           </InputClaims>
         </TechnicalProfile>
       </TechnicalProfiles>
